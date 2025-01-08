@@ -23,7 +23,7 @@ java HuffmanCoding encode <inputFile> [outputFile]
 - [outputFile] — путь для сохранения сжатого файла.
 ### Пример:
 ```bash
-java HuffmanCoding encode input.txt encoded.txt
+java HuffmanCoding encode input.txt encoded.bin
 ```
 2. Декодирование файла: Для декодирования сжатого файла используйте команду:
 ```bash
@@ -33,5 +33,5 @@ java HuffmanCoding decode <inputFile> [outputFile]
 - [outputFile] — путь для сохранения восстановленного файла.
 ### Пример:
 ```bash
-java HuffmanCoding decode encoded.txt output.txt
+java HuffmanCoding decode encoded.bin output.txt
 ```
